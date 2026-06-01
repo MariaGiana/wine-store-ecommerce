@@ -1,71 +1,84 @@
-# MalbecNord
+# 🍷 MalbecNord - Angular Wine E-Commerce
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.10.
+<div align="center">
+  <img src="https://angular.dev/assets/images/press-kit/angular_wordmark_gradient.png" width="200" alt="Angular Logo">
+  <br>
+  <p><strong>SPA built with Angular 19 & TypeScript</strong></p>
+</div>
 
-## Proyecto:   
-# *Web de Venta de Vinos Argentinos en Dinamarca*  
-  
-## Descripción del proyecto:  
-Este proyecto consiste en el desarrollo de una aplicación web para la venta de vinos importados de Argentina en Dinamarca. La idea surgió como una colaboración con unos amigos que están iniciando un pequeño emprendimiento en Europa.    
-La aplicación está desarrollada con Angular y reproduce una tienda online básica donde los usuarios pueden:  
-  
-- Ver una lista de vinos disponibles  
+---
 
-- Conocer detalles sobre cada producto  
+## 🚀 Live Demo / Demo en Vivo
+🌐 **[Explore the application live here / Explora la aplicación en vivo aquí](TU_ENLACE_DE_DEPLOY_AQUÍ)**
 
-- Agregar productos al carrito  
+---
 
-- Navegar entre diferentes secciones como "Inicio", "Nosotros", "Contacto" y "Carrito"  
-- Enviar una consulta completando un formulario de contacto  
-  
-## Objetivo:  
-Aplicar los conocimientos adquiridos durante el curso para construir una Single Page Application (SPA) desarrollada con Angular, que demuestre el uso de:  
-  
-**Componentes** 
+## 📄 Description & Purpose / Descripción y Objetivo
 
-**Servicios**  
+| 🇪🇸 Español | 🇺🇸 English |
+| :--- | :--- |
+| Este proyecto es una aplicación web para la venta de vinos importados de Argentina en Dinamarca, nacida como colaboración para un emprendimiento real en Europa. El objetivo principal es consolidar el desarrollo de una **Single Page Application (SPA)** robusta y escalable con Angular. | This project is a web application for selling imported Argentine wines in Denmark, born as a collaboration for a real startup in Europe. The main goal is to consolidate the development of a robust and scalable **Single Page Application (SPA)** using Angular. |
 
-**Data binding**  
+---
 
-**Comunicación entre componentes**  
+## ✨ Key Features / Características Principales
 
-**Routing**  
+| 🇪🇸 Español | 🇺🇸 English |
+| :--- | :--- |
+| 📦 **Catálogo Dinámico:** Lista completa de vinos con control y validación de stock disponible. | 📦 **Dynamic Catalog:** Full list of available wines with live stock control and validation. |
+| 🔍 **Detalle de Producto:** Información técnica y notas de cata de cada vino. | 🔍 **Product Details:** Technical info and tasting notes for each specific bottle. |
+| 🛒 **Carrito Reactivo:** Gestión de compras en tiempo real (agregar, calcular totales y cantidades). | 🛒 **Reactive Cart:** Real-time shopping cart management (add items, live totals, and quantity calculation). |
+| 📬 **Formulario de Contacto:** Validaciones en tiempo real para el envío seguro de consultas. | 📬 **Contact Form:** Reactive form with real-time validations for customer inquiries. |
 
-**Observables con RxJS**  
+---
 
-**Formularios reactivos**  
-    
----------------------------------------------------------------
+## 🛠️ Technical Implementation / Arquitectura Técnica
 
-ENGLISH VERSION
+Este proyecto demuestra el dominio de los siguientes conceptos del ecosistema de Angular:
+*This project demonstrates proficiency in the following core Angular concepts:*
 
-# MalbecNord
+* **Components & Databinding:** Estructura modular de UI con comunicación eficiente (`@Input()`, `@Output()`).
+* **Services & State Management:** Uso de servicios inyectables (`wine-cart.service.ts`, `wine-data.service.ts`) para centralizar la lógica de negocio.
+* **RxJS & Observables:** Manejo del estado del carrito de compras de forma reactiva y asíncrona.
+* **Angular Routing:** Sistema de navegación limpio entre secciones (`/wines-list`, `/wine-detail/:id`, `/contact`, `/malbecnord-cart`).
+* **Reactive Forms:** Formularios avanzados con validaciones personalizadas del lado del cliente.
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.10.
+---
 
-# Project  
-## *Argentine Wine E-commerce Website for Denmark*
+## 📂 Project Structure / Estructura del Proyecto
 
-## Project Description
+Basado en el patrón de diseño modular de Angular / *Based on Angular's modular design pattern:*
 
-This project consists of the development of a web application for selling wines imported from Argentina to Denmark. The idea emerged as a collaboration with friends who are starting a small business venture in Europe.
+```text
+src/
+├── app/
+│   ├── form-contact/              # Contact form component (Reactive)
+│   ├── input-integer/             # Reusable custom quantity selector
+│   ├── malbecnord-about/          # "About Us" section component
+│   ├── malbecnord-cart/           # Shopping cart layout & logic
+│   ├── malbecnord-principal/      # Home page layout
+│   ├── wine-detail/               # Individual wine detail viewer
+│   ├── wines-list/                # Main wine catalog view
+│   ├── customers-messages.service.ts # Service for contact logs
+│   ├── wine-cart.service.ts       # Reactive state service for the shopping cart
+│   └── wine-data.service.ts       # Data fetch & stock validation service
 
-The application was developed with Angular and simulates a basic online store where users can:
+## 🚀 Local Installation / Instalación Local
 
-- Browse a list of available wines
-- View detailed information about each product
-- Add products to the shopping cart
-- Navigate through different sections such as "Home", "About Us", "Contact", and "Cart"
-- Send inquiries through a contact form
+| 🇪🇸 Español | 🇺🇸 English |
+| :--- | :--- |
+| Si quieres clonar y ejecutar este proyecto localmente, sigue estos sencillos pasos: | To clone and run this project locally, follow these simple steps: |
 
-## Objective
-
-The main goal of this project is to apply the knowledge acquired during the course by building a Single Page Application (SPA) with Angular, demonstrating the use of:
-
-- Components
-- Services
-- Data Binding
-- Component Communication
-- Routing
-- Observables with RxJS
-- Reactive Forms
+### 1. Clone the repository / Clonar el repositorio
+```bash
+git clone [https://github.com/MariaGiana/wine-store-angular.git](https://github.com/MariaGiana/wine-store-angular.git)
+cd wine-store-angular
+### 2. Install dependencies / Instalar dependencias  
+```bash
+npm install
+### 3. Run the development server / Levantar el servidor local
+```bash
+ng serve  
+### 💡 Next Step / Próximo Paso: 
+> **English:** Open your browser and navigate to `http://localhost:4200/` to see the app running live.  
+> **Español:** Abre tu navegador y navega a `http://localhost:4200/` para ver la aplicación corriendo en vivo.
