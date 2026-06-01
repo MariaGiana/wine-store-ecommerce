@@ -38,17 +38,22 @@
 | :--- | :--- |
 | Este proyecto demuestra el dominio de los siguientes conceptos clave del ecosistema de Angular: | This project demonstrates proficiency in the following core concepts of the Angular ecosystem: |
 
-* **Components & Databinding:** * 🇪🇸 Estructura modular de UI con comunicación eficiente (`@Input()`, `@Output()`).
+* **Components & Databinding:** 
+  * 🇪🇸 Estructura modular de UI con comunicación eficiente (`@Input()`, `@Output()`).
   * 🇺🇸 Modular UI structure with efficient component communication (`@Input()`, `@Output()`).
-* **Services & State Management:** * 🇪🇸 Uso de servicios inyectables (`wine-cart.service.ts`, `wine-data.service.ts`) para centralizar la lógica de negocio.
+* **Services & State Management:** 
+  * 🇪🇸 Uso de servicios inyectables (`wine-cart.service.ts`, `wine-data.service.ts`) para centralizar la lógica de negocio.
   * 🇺🇸 Use of injectable services (`wine-cart.service.ts`, `wine-data.service.ts`) to centralize business logic.
-* **RxJS & Observables:** * 🇪🇸 Manejo del estado del carrito de compras de forma reactiva y asíncrona.
+* **RxJS & Observables:** 
+  * 🇪🇸 Manejo del estado del carrito de compras de forma reactiva y asíncrona.
   * 🇺🇸 Reactive and asynchronous shopping cart state management.
-* **Angular Routing:** * 🇪🇸 Sistema de navegación limpio entre secciones (`/wines-list`, `/wine-detail/:id`, `/contact`, `/malbecnord-cart`).
+* **Angular Routing:** 
+  * 🇪🇸 Sistema de navegación limpio entre secciones (`/wines-list`, `/wine-detail/:id`, `/contact`, `/malbecnord-cart`).
   * 🇺🇸 Clean navigation system between views (`/wines-list`, `/wine-detail/:id`, `/contact`, `/malbecnord-cart`).
-* **Reactive Forms:** * 🇪🇸 Formularios avanzados con validaciones en tiempo real del lado del cliente.
+* **Reactive Forms:** 
+  * 🇪🇸 Formularios avanzados con validaciones en tiempo real del lado del cliente.
   * 🇺🇸 Advanced forms with real-time client-side validations.
-  
+
 ---
 
 ## 📂 Project Structure / Estructura del Proyecto
