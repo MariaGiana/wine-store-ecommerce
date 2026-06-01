@@ -1,3 +1,4 @@
+
 <div class="cart-container">
     <h2> Cart</h2>
     <ng-container *ngIf="cartList$ | async as cartList; else empty">
@@ -10,7 +11,18 @@
           <span>Quantity: {{ wine.quantity }}</span>
           <span>Unit Price: {{ wine.price | currency:'DKK' }}</span>
           <span>Total: {{ wine.price * wine.quantity | currency:'DKK' }}</span>
+          <span><button (click)="deleteWine(wine)" class="btn btn-danger">
+            🗑️ Remove
+          </button>
+          </span>
         </div>
+        <button *ngIf="showCartButton" 
+        (click)="handleCartNavigation()" 
+        class="btn btn-primary cart-toggle-btn">
+  
+  🛒 {{ isInCartPage ? 'Close Cart' : 'Open Cart' }}
+
+</button>
       </div>
     </ng-container>
     <ng-template #empty>

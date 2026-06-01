@@ -101,3 +101,10 @@ ng serve
 ### 💡 Next Step / Próximo Paso: 
 > **English:** Open your browser and navigate to `http://localhost:4200/` to see the app running live.  
 > **Español:** Abre tu navegador y navega a `http://localhost:4200/` para ver la aplicación corriendo en vivo.
+
+### ⚠️ Known Issues & Future Enhancements / Problemas Conocidos y Mejoras Futuras
+
+| 🇪🇸 Español | 🇺🇸 English |
+| :--- | :--- |
+| **Sincronización de Stock:** Actualmente, al eliminar un producto del carrito, el stock en el catálogo principal no se restablece en tiempo real de forma bidireccional. Esto se debe a la gestión de referencias independientes en el estado local de los componentes. | **Stock Synchronization:** Currently, when removing a product from the cart, the stock in the main catalog does not reset bi-directionally in real-time. This is due to independent reference management within the local state of the components. |
+| **Solución planteada:** Para una futura versión, se planifica centralizar el estado global del catálogo y el carrito utilizando un Store unificado (como NgRx o un servicio con `BehaviorSubject` compartido que maneje una única fuente de verdad) para asegurar la reactividad cruzada. | **Planned Solution:** For a future release, the plan is to centralize the global state of both the catalog and the cart using a unified Store (such as NgRx or a shared `BehaviorSubject` service managing a single source of truth) to ensure cross-reactivity. |

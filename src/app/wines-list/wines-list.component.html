@@ -12,16 +12,6 @@
       </tr>
     </thead>
     <tbody>
-      <!-- Version antigua
-    <tr *ngFor="let wine of wines" [ngClass]="{'clearance':wine.clearance}">
-     <td><img [src]="wine.image" alt="{{wine.wineName}}" class="img-fluid" style="max-width: 200px;"></td>
-     <td>{{wine.wineName}}</td>
-     <td>{{wine.winery}}</td>
-     <td>{{wine.grapeVariety}}</td>
-     <td>{{wine.description}}</td>
-     <td>{{wine.price | currency}}</td>
-     <td><span class="badge text-bg-warning" *ngIf="wine.stock==0">No Stock</span></td>
-     </tr>-->
 
       @for (wine of wines; track wine.id){
 

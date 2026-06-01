@@ -16,7 +16,7 @@
 "winery": "LUI - Mendoza, Argentina",
 "description": "Intense red with violet tones, aromas of ripe red fruits and soft tannins.",
 "price": 99.99,
-"image": "assets/img/lui-malbec.png",
+"image": "assets/img/lui-malbec.jpg",
 "stock": 30,
 "clearance": false,
 "id": "2"
@@ -87,8 +87,8 @@
 "id": "8"
 },
 {
-"wineName": "Fantelli Merlot",
-"grapeVariety": "Merlot",
+"wineName": "Fantelli merlot",
+"grapeVariety": "Chardonnay",
 "winery": "Bodega Fantelli - Mendoza",
 "description": "Smooth and easy-drinking Merlot with plum and vanilla notes.",
 "price": 92,
@@ -103,7 +103,7 @@
 "winery": "LUI - Mendoza, Argentina",
 "description": "Barrel-aged Malbec with structure, depth and intense character.",
 "price": 155,
-"image": "assets/img/lui-reserva.png",
+"image": "assets/img/lui-malbec.jpg",
 "stock": 10,
 "clearance": false,
 "id": "10"
