@@ -9,7 +9,7 @@
 ---
 
 ## 🚀 Live Demo / Demo en Vivo
-🌐 **[Explore the application live here / Explora la aplicación en vivo aquí](TU_ENLACE_DE_DEPLOY_AQUÍ)**
+🌐 **[Explore the application live here / Explora la aplicación en vivo aquí](https://stackblitz.com/~/github.com/MariaGiana/wine-store-ecommerce)**
 
 ---
 
