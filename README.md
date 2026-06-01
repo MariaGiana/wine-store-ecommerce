@@ -62,8 +62,12 @@ src/
 │   ├── customers-messages.service.ts # Service for contact logs
 │   ├── wine-cart.service.ts       # Reactive state service for the shopping cart
 │   └── wine-data.service.ts       # Data fetch & stock validation service
+```
 
-## 🚀 Local Installation / Instalación Local
+---
+
+
+## 🚀 Local Installation / Instalación Local  
 
 | 🇪🇸 Español | 🇺🇸 English |
 | :--- | :--- |
@@ -72,13 +76,17 @@ src/
 ### 1. Clone the repository / Clonar el repositorio
 ```bash
 git clone [https://github.com/MariaGiana/wine-store-angular.git](https://github.com/MariaGiana/wine-store-angular.git)
-cd wine-store-angular
+cd wine-store-angular 
+```  
 ### 2. Install dependencies / Instalar dependencias  
 ```bash
 npm install
+```  
 ### 3. Run the development server / Levantar el servidor local
 ```bash
-ng serve  
+ng serve
+```  
+  
 ### 💡 Next Step / Próximo Paso: 
 > **English:** Open your browser and navigate to `http://localhost:4200/` to see the app running live.  
 > **Español:** Abre tu navegador y navega a `http://localhost:4200/` para ver la aplicación corriendo en vivo.
