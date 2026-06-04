@@ -31,6 +31,19 @@
 | 📬 **Formulario de Contacto:** Validaciones en tiempo real para el envío seguro de consultas. | 📬 **Contact Form:** Reactive form with real-time validations for customer inquiries. |
 
 ---
+### Previews / Screenshots
+
+| ⚠️ Maximum Stock Reached | 🚫 Out of Stock in Shop |
+| :---: | :---: |
+| <img width="390" alt="Max Stock Alert" src="https://github.com/user-attachments/assets/d6eaa1a9-c367-4618-8d17-6d4ca15a3c67" /> | <img width="390" alt="Out of Stock View" src="https://github.com/user-attachments/assets/aaede8fa-8229-4d51-8cc1-ef6ede74c6da" /> |
+
+| 🏠 Home View (Desktop) | 📱 Cart View (Mobile) | ✉️ Contact Form (Mobile) |
+| :---: | :---: | :---: |
+| <img width="340" alt="Home" src="https://github.com/user-attachments/assets/b44db2d2-034b-44f8-b6e2-d5c45deee5ee" /> | <img width="115" alt="Cart Mobile" src="https://github.com/user-attachments/assets/a6f1be59-662f-4ee2-9bc5-f159aa9752cf" /> | <img width="115" alt="Contact Mobile" src="https://github.com/user-attachments/assets/63447ee4-3106-43d6-b88f-476c308b20ab" /> |
+
+
+---
+
 
 ## 🛠️ Technical Implementation / Implementación Técnica
 
